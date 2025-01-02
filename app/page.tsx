@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import BillaHeader from "@/components/billa-header";
 import BillaOptions from "@/components/billa-options";
 
