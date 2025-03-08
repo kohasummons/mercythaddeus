@@ -1,14 +1,20 @@
-// import Image from "next/image";
-import BillaHeader from "@/components/billa-header";
-import BillaOptions from "@/components/billa-options";
+"use client";
+
+import { Suspense } from "react";
+
+import NameInfiniteScroll from "@/components/Animations/NameInfiniteScroll";
+import GeneralLayout from "@/components/layout/GeneralLayout";
 
 export default function Home() {
   return (
-    <div className="flex w-full h-max justify-center overflow-scroll overflow-x-hidden p-3 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-4 max-w-full w-[--billa-container-width] items-center sm:items-start">
-        <BillaHeader />
-        <BillaOptions />
-      </main>
-    </div>
+    <Suspense>
+      <div className="relative">
+        <NameInfiniteScroll />
+
+        <div className="pt-16 md:pt-28 2xl:pt-32">
+          <GeneralLayout />
+        </div>
+      </div>
+    </Suspense>
   );
 }
