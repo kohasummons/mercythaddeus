@@ -13,20 +13,32 @@ const Projects = () => {
 
   const tabs: ProjectSchema[] = [
     {
-      title: "Ralli",
-      des: "Description of Project 1",
-      id: 0,
-    },
-    {
-      title: "Project 2",
-      des: "Description of Project 2",
+      title: "Attest Protocol",
+      des: "Attest Protocol is a blockchain-based attestation infrastructure that enables verifiable, composable, and trustless identity and reputation proofs on-chain.",
       id: 1,
     },
     {
-      title: "Project 3",
-      des: "Description of Project 3",
+      title: "SorobanByExamples",
+      des: "An AI-powered education tool to help developers learn Soroban (Stellar’s smart contract platform) through usable code examples.",
       id: 2,
     },
+    {
+      title: "Ralli",
+      des: "Ralli is a smart web app that lets users create dynamic, personalized digital feeds based on their interactions, interests, and data. Think of it as a blend of an AI agent and a life dashboard—where updates, tasks, memories, and insights are all served interactively and in real time.",
+      id: 3,
+    },
+   
+    {
+      title: "Zeek KYC",
+      des: "Zeek is your streamlined solution for Know Your Customer (KYC) in the Web3 world—built with speed, simplicity, and blockchain-native principles at its core.",
+      id: 4,
+    },
+      {
+        title: "BuymePizza",
+        des: "BuyMePizza is a simple web app that lets users receive tips or small donations—specifically to “buy them pizza”—through seamless blockchain payments. Built with integrated Request Network for invoice creation and payment handling",
+        id: 3,
+    },
+   
   ];
 
   return (

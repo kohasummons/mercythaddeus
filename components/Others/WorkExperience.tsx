@@ -3,22 +3,22 @@ import { Experience } from "@/helpers";
 const WorkExperience = () => {
   const experiences: Experience[] = [
     {
-      company_name: "Company 1",
-      position: "Software Engineer",
-      duration: "April 2020 - Present",
+      company_name: "Hindsight VIP",
+      position: "Frontend Engineer",
+      duration: "November 2023 - Present",
       link: "hindsight.vip",
     },
     {
-      company_name: "Company 2",
-      position: "Software Engineer",
-      duration: "August 2018 - Jan 2020",
-      link: "hindsight.vip",
+      company_name: "CastleHub",
+      position: "Frontend Engineer",
+      duration: "June 2024 - December 2024",
+      link: "castlehub.io",
     },
     {
-      company_name: "Company 3",
-      position: "Software Engineer",
-      duration: "Mar 2016 - Jun 2018",
-      link: "hindsight.vip",
+      company_name: "ToolAI",
+      position: "Frontend Engineer",
+      duration: "March 2024 - September 2024",
+      link: "toolai.ai",
     },
   ];
   return (

@@ -52,17 +52,14 @@ const AboutInfo = () => {
           i build frontend experiences 🧪, from idea 📂 to unicorn status 🦄.{" "}
         </p>
         <p>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-          commodo ligula eget dolor Lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor Lorem ipsum dolor
-          sit amet, consectetuer adipiscing elit. Aenean commodo . For ethereum{" "}
+          I specialize in crafting modern, responsive web applications using React, Next.js, and TypeScript. With a keen eye for design and user experience, I transform complex requirements into elegant, performant solutions. My expertise spans from building scalable component libraries to implementing cutting-edge web3 integrations. Passionate about open-source and community building, I actively contribute to the developer ecosystem while mentoring aspiring engineers.
         </p>
         <div className="flex gap-2 items-center">
-          <Link href={`/linkendln.com`}>Linkedln</Link>
+          <Link href="https://www.linkedin.com/in/mercythaddeus" className="hover:text-pink-500 transition-colors">Linkedln</Link>
           <span>✦</span>
-          <Link href={`/github.com`}>Github</Link>
+          <Link href="https://github.com/mercythaddeus" className="hover:text-pink-500 transition-colors">Github</Link>
           <span>✦</span>
-          <Link href={`/youtube.com`}>Youtube</Link>
+          <Link href="https://x.com/global_techgirl" className="hover:text-pink-500 transition-colors">X</Link>
         </div>
       </div>
     </div>
