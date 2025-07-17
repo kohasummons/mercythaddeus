@@ -16,7 +16,7 @@ const WorkExperience = () => {
     },
     {
       company_name: "ToolAI",
-      position: "Frontend Engineer",
+      position: "Software Engineer",
       duration: "March 2024 - September 2024",
       link: "toolai.ai",
     },

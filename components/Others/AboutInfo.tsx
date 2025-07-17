@@ -49,10 +49,17 @@ const AboutInfo = () => {
       <div className="space-y-3 font-medium">
         <p>Hey, I&apos;m Mercy! ✦</p>
         <p>
-          i build frontend experiences 🧪, from idea 📂 to unicorn status 🦄.{" "}
+        i build software experiences ⚙️ — from scribble 📓 to unicorn 🦄.{" "}
         </p>
         <p>
-          I specialize in crafting modern, responsive web applications using React, Next.js, and TypeScript. With a keen eye for design and user experience, I transform complex requirements into elegant, performant solutions. My expertise spans from building scalable component libraries to implementing cutting-edge web3 integrations. Passionate about open-source and community building, I actively contribute to the developer ecosystem while mentoring aspiring engineers.
+        My focus lies in architecting robust software solutions that push the boundaries of technology.  <br /><br />
+        
+        I excel in developing scalable systems, integrating advanced AI functionalities, and leveraging blockchain technology to create groundbreaking products.
+          
+          
+          
+          <br /><br />
+          Passionate about open-source and community building, I actively contribute to the developer ecosystem while mentoring aspiring engineers.
         </p>
         <div className="flex gap-2 items-center">
           <Link href="https://www.linkedin.com/in/mercythaddeus" className="hover:text-pink-500 transition-colors">Linkedln</Link>

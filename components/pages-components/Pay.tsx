@@ -25,27 +25,27 @@ const Pay = () => {
     {
       token: "Ethereum",
       icon: <TokenETH variant="branded" size="25" />,
-      wallet_address: "0x4B4cF23051c78c7A7E0eA09d39099621c46bc302",
+      wallet_address: "0x078c8986fe7b4482d50c9063c2e8a5ab234686e2",
     },
     {
       token: "Solana",
       icon: <TokenSOL variant="branded" size="25" />,
-      wallet_address: "0x4B4cF23051c78c7A7E0eA09d39099621c46bc302",
+      wallet_address: "8kLYo7P5aGhSA9Gupgx3kBUYHpmJMnoijRgA8D3t8zQ9",
     },
     {
       token: "Bitcoin",
       icon: <TokenBTC variant="branded" size="25" />,
-      wallet_address: "0x4B4cF23051c78c7A7E0eA09d39099621c46bc302",
+      wallet_address: "Nil",
     },
     {
       token: "Stella",
       icon: <TokenSTELLA variant="branded" size="25" />,
-      wallet_address: "0x4B4cF23051c78c7A7E0eA09d39099621c46bc302",
+      wallet_address: "Nil",
     },
     {
       token: "Starknet",
       icon: <TokenSTARL variant="branded" size="25" />,
-      wallet_address: "0x4B4cF23051c78c7A7E0eA09d39099621c46bc302",
+      wallet_address: "Nil",
     },
   ];
 
