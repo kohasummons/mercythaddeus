@@ -42,7 +42,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className="space-y-5">
+    <section className="space-y-5">
       {/* Header */}
       <div className="flex items-center justify-between">
         <h2 className="font-[family-name:var(--font-romanesco)] text-3xl">
@@ -104,7 +104,7 @@ const Projects = () => {
           </AnimatePresence>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -22,7 +22,7 @@ const WorkExperience = () => {
     },
   ];
   return (
-    <div className="flex items-start flex-col md:flex-row gap-5">
+    <section className="flex items-start flex-col md:flex-row gap-5">
       {/* Title */}
       <h2 className="font-[family-name:var(--font-romanesco)] text-3xl md:w-1/2">
         Work
@@ -42,7 +42,7 @@ const WorkExperience = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

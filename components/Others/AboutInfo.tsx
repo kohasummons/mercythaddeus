@@ -3,14 +3,17 @@ import { TokenETH, TokenSOL } from "@web3icons/react";
 
 const AboutInfo = () => {
   return (
-    <div className="space-y-10">
+    <section className="space-y-10">
       {/* Image & Title(s) */}
       <div className="space-y-8">
         {/* Display Picture */}
-        <div className="w-32 h-32 md:w-24 md:h-24 rounded-xl bg-[url(/display_image.svg)] bg-center bg-cover bg-no-repeat"></div>
+        <div className="w-32 h-32 md:w-24 md:h-24 rounded-xl bg-[url(/display_image.svg)] bg-center bg-cover bg-no-repeat" role="img" aria-label="Mercy Thaddeus professional photo"></div>
 
         {/* Title(s) md*/}
         <div className="md:flex gap-3 items-center font-medium hidden">
+          <span className="bg-secondary py-3 px-4 rounded-3xl">
+            Software Engineer
+          </span>
           <span className="bg-secondary py-3 px-4 rounded-3xl">
             Frontend Engineer
           </span>
@@ -26,6 +29,9 @@ const AboutInfo = () => {
         {/* Title(s) sm*/}
         <div className="flex flex-col gap-5 font-medium md:hidden">
           <div className="flex gap-3 items-center">
+            <span className="bg-secondary py-3 px-4 rounded-3xl">
+              Software Engineer
+            </span>
             <span className="bg-secondary py-3 px-4 rounded-3xl">
               Frontend Engineer
             </span>
@@ -47,7 +53,7 @@ const AboutInfo = () => {
 
       {/* About Text */}
       <div className="space-y-3 font-medium">
-        <p>Hey, I&apos;m Mercy! ✦</p>
+        <h1>Hey, I&apos;m Mercy! ✦</h1>
         <p>
         i build software experiences ⚙️ — from scribble 📓 to unicorn 🦄.{" "}
         </p>
@@ -69,7 +75,7 @@ const AboutInfo = () => {
           <Link href="https://x.com/global_techgirl" className="hover:text-pink-500 transition-colors">X</Link>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
