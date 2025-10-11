@@ -31,15 +31,15 @@ export default function KitPage() {
   const instagramStats = [
     {
       label: "Views",
-      value: "1.9M+"
+      value: "2M+"
     },
     {
       label: "Interactions",
-      value: "240K+"
+      value: "250K+"
     },
     {
       label: "Followers",
-      value: "20K+"
+      value: "21K+"
     }
   ];
 
