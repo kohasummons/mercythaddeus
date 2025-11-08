@@ -15,7 +15,7 @@ export default function KitPage() {
     },
     {
       title: "Instagram Reel",
-      price: "$300"
+      price: "$250"
     },
     {
       title: "Instagram Stories (3 Slides)",
@@ -31,15 +31,15 @@ export default function KitPage() {
   const instagramStats = [
     {
       label: "Views",
-      value: "3M+"
+      value: "4M+"
     },
     {
       label: "Interactions",
-      value: "400K+"
+      value: "500K+"
     },
     {
       label: "Followers",
-      value: "31K+"
+      value: "35K+"
     }
   ];
 
