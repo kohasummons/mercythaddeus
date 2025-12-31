@@ -11,11 +11,11 @@ export default function KitPage() {
   const services = [
     {
       title: "Instagram Post",
-      price: "$150"
+      price: "$200"
     },
     {
       title: "Instagram Reel",
-      price: "$250"
+      price: "$500"
     },
     {
       title: "Instagram Stories (3 Slides)",
@@ -31,7 +31,7 @@ export default function KitPage() {
   const instagramStats = [
     {
       label: "Views",
-      value: "4M+"
+      value: "4.7M+"
     },
     {
       label: "Interactions",
@@ -39,7 +39,7 @@ export default function KitPage() {
     },
     {
       label: "Followers",
-      value: "35K+"
+      value: "53K+"
     }
   ];
 
