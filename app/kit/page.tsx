@@ -11,15 +11,15 @@ export default function KitPage() {
   const services = [
     {
       title: "Instagram Post",
-      price: "$200"
+      price: "$400"
     },
     {
       title: "Instagram Reel",
-      price: "$500"
+      price: "$700"
     },
     {
       title: "Instagram Stories (3 Slides)",
-      price: "$100"
+      price: "$200"
     },
     {
       title: "Speaking Engagements",
