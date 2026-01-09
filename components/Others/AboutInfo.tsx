@@ -15,12 +15,12 @@ const AboutInfo = () => {
             Software Engineer
           </span>
           <span className="bg-secondary py-3 px-4 rounded-3xl">
-            Frontend Engineer
+            AI Creator
           </span>
           <span className="w-14 h-12 rounded-3xl bg-secondary flex items-center justify-center">
             <TokenETH variant="branded" size="25" />
           </span>
-          <span className="bg-secondary py-3 px-4 rounded-3xl">Community</span>
+          <span className="bg-secondary py-3 px-4 rounded-3xl">Blockchain</span>
           <span className="w-14 h-12 rounded-3xl bg-secondary flex items-center justify-center">
             <TokenSOL variant="branded" size="25" />
           </span>
@@ -33,7 +33,7 @@ const AboutInfo = () => {
               Software Engineer
             </span>
             <span className="bg-secondary py-3 px-4 rounded-3xl">
-              Frontend Engineer
+              AI Creator
             </span>
             <span className="w-14 h-12 rounded-3xl bg-secondary flex items-center justify-center">
               <TokenETH variant="branded" size="30" />
@@ -42,7 +42,7 @@ const AboutInfo = () => {
 
           <div className="flex gap-3 items-center">
             <span className="bg-secondary py-3 px-4 rounded-3xl">
-              Community
+              Blockchain
             </span>
             <span className="w-14 h-12 rounded-3xl bg-secondary flex items-center justify-center">
               <TokenSOL variant="branded" size="30" />
@@ -55,17 +55,12 @@ const AboutInfo = () => {
       <div className="space-y-3 font-medium">
         <h1>Hey, I&apos;m Mercy! ✦</h1>
         <p>
-        i build software experiences ⚙️ — from scribble 📓 to unicorn 🦄.{" "}
+          Software Engineer at the intersection of AI, blockchain, and modern product thinking.
         </p>
         <p>
-        My focus lies in architecting robust software solutions that push the boundaries of technology.  <br /><br />
-        
-        I excel in developing scalable systems, integrating advanced AI functionalities, and leveraging blockchain technology to create groundbreaking products.
-          
-          
-          
+          I ship products across blockchain and AI, crafting clean interfaces that simplify complexity. I teach builders how to turn ideas into prototypes and create content helping people apply new AI tools.
           <br /><br />
-          Passionate about open-source and community building, I actively contribute to the developer ecosystem while mentoring aspiring engineers.
+          Outside of work, I run <span className="text-[#1a1a1a]">TechUp</span> — a nonprofit helping young people access tech opportunities.
         </p>
         <div className="flex gap-2 items-center">
           <Link href="https://www.linkedin.com/in/mercythaddeus" className="hover:text-pink-500 transition-colors">Linkedln</Link>

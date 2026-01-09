@@ -8,27 +8,46 @@ import { TalksSchema } from "@/helpers";
 const talks: TalksSchema[] = [
   {
     id: 1,
-    date: "April 20th, 2025",
-    title: "Leveraging AI in a fast-paced world",
+    date: "January 2025",
+    title: "Malhub",
     images: [
-      "/talksImage.svg",
-      "/talksImage.svg",
-      "/talksImage.svg", 
+      "/talks/malhub.jpg",
     ],
   },
   {
     id: 2,
-    date: "April 12, 2025",
-    title: "Vibecoding As-a-Service: Shipping your first App with AI",
-    images: ["/talksImage.svg", "/talksImage.svg", "/talksImage.svg"],
+    date: "December 2024",
+    title: "FlipToTech",
+    images: [
+      "/talks/fliptotech.JPG",
+      "/talks/fliptotech1.JPG",
+      "/talks/fliptotech2.jpg",
+    ],
   },
   {
     id: 3,
-    date: "27th March, 2024",
-    title: "Job Opportunities for Women in Tech",
-    images: ["/talksImage.svg", "/talksImage.svg", "/talksImage.svg"],
+    date: "November 2024",
+    title: "Kwara AI",
+    images: [
+      "/talks/kwaraai.jpg",
+      "/talks/kwaraai1.jpg",
+      "/talks/kwaraai2.jpg",
+      "/talks/kwaraai3.jpg",
+      "/talks/kwaraai4.jpg",
+      "/talks/kwaraaicard.jpg",
+    ],
   },
-  
+  {
+    id: 4,
+    date: "November 2024",
+    title: "DevFest",
+    images: [
+      "/talks/devfest.jpg",
+      "/talks/devfest1.jpg",
+      "/talks/devfest2.JPG",
+      "/talks/devfest3.jpg",
+    ],
+  },
 ];
 
 export default function TalksShowcase() {
