@@ -22,7 +22,7 @@ export default function KitPage() {
       price: "$2,500",
       bestFor: "Maximum reach & extended campaigns",
       includes: [
-        "1 Professional Video (60-90 sec Instagram Reel)",
+        "1 Professional Video",
         "Cross-post to TikTok",
         "3 Story slides (24-hour feature)",
         "30-day link in bio (prime placement)",
