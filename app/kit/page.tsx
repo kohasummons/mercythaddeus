@@ -55,16 +55,16 @@ export default function KitPage() {
   ];
 
   const contentServices = [
-    { title: "Instagram Reel/Video (standalone)", price: "$800-1,000" },
-    { title: "TikTok Video (standalone)", price: "$800-1,000" },
-    { title: "Carousel Post (5-10 slides)", price: "$1,000-1,200" },
-    { title: "Story Feature (3-5 slides, 24hrs)", price: "$400-600" }
+    { title: "Instagram Reel/Video (standalone)", price: "$700" },
+    { title: "TikTok Video (standalone)", price: "$600" },
+    { title: "Carousel Post (5-10 slides)", price: "$600" },
+    { title: "Story Feature (3-5 slides, 24hrs)", price: "$400" }
   ];
 
   const linkInBio = [
-    { duration: "7 days", price: "$300-400" },
-    { duration: "14 days", price: "$500-700" },
-    { duration: "30 days", price: "$800-1,000" }
+    { duration: "7 days", price: "$300" },
+    { duration: "14 days", price: "$500" },
+    { duration: "30 days", price: "$800" }
   ];
 
   const addOns = [
