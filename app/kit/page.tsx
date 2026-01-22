@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 
 export default function KitPage() {
   const stats = [
-    { label: "Following", value: "92,000+" },
+    { label: "Following", value: "103,0000+" },
     { label: "Platforms", value: "Instagram, TikTok" },
     { label: "Niche", value: "AI Tools & Content Creation" },
     { label: "Audience", value: "Tech-savvy creators, AI enthusiasts" }
@@ -27,7 +27,8 @@ export default function KitPage() {
         "3 Story slides (24-hour feature)",
         "30-day link in bio (prime placement)",
         "Collaboration post feature",
-        "Performance report (7 days after posting)"
+        "Performance report (7 days after posting)",
+        "Usage rights for ads (60 days)"
       ]
     },
     {
@@ -39,7 +40,8 @@ export default function KitPage() {
         "2 Story slides (24-hour feature)",
         "14-day link in bio",
         "Collaboration post feature",
-        "Basic performance report"
+        "Basic performance report",
+        "Usage rights for ads (30 days)"
       ]
     },
     {
